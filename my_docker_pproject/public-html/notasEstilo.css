@@ -1,0 +1,58 @@
+.selectCiudad {
+    max-width: 250px;
+}
+.card{
+    background-color: #33b5e5;
+    border: 2px solid rgba(0, 0, 0, 0.181);
+    color: #fff;    
+    width: 70%;
+}
+.page-size{
+    padding-bottom:55px;
+}
+.card-header{
+    justify-content: center;
+}
+.card-body{
+    height: 8em;
+    cursor: pointer
+}
+.card-footer{
+    background-color: rgba(255, 255, 255, 0.665);
+    border-top: 1px solid #eee;
+}
+.papelera{
+    width: 10%;
+    cursor: pointer;
+}
+
+
+#agregar{
+    cursor:pointer
+}
+#agregarB{
+    cursor:pointer
+}
+@media (max-width: 769px){
+    #textoNocturno{
+        display: none;
+    }
+    #agregar{
+        display:none
+    }
+    #footer{
+        display:none
+    }
+    #agregarB{
+        width: 9%;
+    }
+    .card{
+        margin-left: 15%;
+    }
+}
+@media(min-width: 769px){
+    #agregarB{
+        display:none
+    }
+    
+}

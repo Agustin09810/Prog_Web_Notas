@@ -1,0 +1,1 @@
+docker run -d -p 81:80 -v C:\Users\Administrador\Desktop\my_docker_pproject\notes.json:/data/db.json clue/json-server --watch
